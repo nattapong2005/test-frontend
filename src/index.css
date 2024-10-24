@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1 {
     font-size: 50px;
     font-weight: bold;
@@ -7,10 +12,11 @@ p {
 }
 nav {
     margin-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    background-color: lightsteelblue;
-    width: 15%;
+    background-color: lightslategray;
+    width: 20%;
     border-radius: 30px;
 }
 nav li {
@@ -24,4 +30,15 @@ a {
     color: white;
     font-weight: bold;
     text-decoration: none;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: lightslategray;
+    width: 100%;
+    padding: 20px;
+    color: white;
+
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import '../index.css';
+import Footer from "../components/Footer";
 const About = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const About = () => {
         <p>อายุ 19</p>
         <p>เพศ ชายสุดเท่</p>
       </center>
+      <Footer/>
     </div>
   );
 };
