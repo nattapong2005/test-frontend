@@ -1,0 +1,27 @@
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+p {
+    font-size: 30px;
+}
+nav {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: lightsteelblue;
+    width: 15%;
+    border-radius: 30px;
+}
+nav li {
+    font-size: 25px;
+    padding: 20px;
+}
+li {
+    list-style: none;  
+}
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
